@@ -40,11 +40,10 @@ NLog Extension for RabbitMQ
 
 # Asp.Net MVC Global.asax Usage
 ```cs
-        protected void Application_Error(object sender, EventArgs e)
-        {
-            Exception lastException = Server.GetLastError();
-            NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
-            //logger.Fatal(lastException);
-            logger.FatalTag("ex", "err");
-        }
+protected void Application_Error(object sender, EventArgs e)
+{
+	Exception lastException = Server.GetLastError();
+	NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+	logger.Fatal(lastException);            
+}
 ```	
