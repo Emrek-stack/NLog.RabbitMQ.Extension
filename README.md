@@ -58,7 +58,7 @@ try
 	int c = a / b;
 	Console.WriteLine(c);                
 }
-	catch (Exception e)
+catch (Exception e)
 {
 	NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
 	logger.Fatal(e);
