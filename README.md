@@ -48,3 +48,20 @@ protected void Application_Error(object sender, EventArgs e)
 	logger.Fatal(lastException);            
 }
 ```	
+
+# Exceptipn Handling Usage
+```cs
+try
+{
+	int a = 100;
+	int b = 0;
+	int c = a / b;
+	Console.WriteLine(c);                
+}
+	catch (Exception e)
+{
+	NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+	logger.Fatal(e);
+	Console.ReadKey();
+}
+```	
