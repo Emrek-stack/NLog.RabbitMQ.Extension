@@ -1,6 +1,7 @@
 # NLog.RabbitMQ.Extension
 NLog Extension for RabbitMQ
 
+Check out on Nuget : https://www.nuget.org/packages/NLog.RabbitMQ.Extension/
 
 # Config File
 ~~~ xml
