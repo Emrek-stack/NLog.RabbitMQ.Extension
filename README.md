@@ -44,7 +44,7 @@ protected void Application_Error(object sender, EventArgs e)
 }
 ```	
 
-# Exceptipn Handling Usage
+# Standart Exception Handling Usage
 ```cs
 try
 {
