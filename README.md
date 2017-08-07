@@ -2,7 +2,7 @@
 NLog Extension for RabbitMQ
 
 	
-<pre><code>
+~~~ xml
 <nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
       xmlns:haf="https://github.com/haf/NLog.RabbitMQ/raw/master/src/schemas/NLog.RabbitMQ.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -35,4 +35,4 @@ NLog Extension for RabbitMQ
   </rules>
 
 </nlog>
-</pre></code>
+~~~
