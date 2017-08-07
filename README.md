@@ -1,7 +1,8 @@
 # NLog.RabbitMQ.Extension
 NLog Extension for RabbitMQ
 
-	
+
+# Config File
 ~~~ xml
 <nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
       xmlns:haf="https://github.com/haf/NLog.RabbitMQ/raw/master/src/schemas/NLog.RabbitMQ.xsd"
